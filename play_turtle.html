@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turtle Game</title>
+  <style>
+    *{
+      box-sizing: border-box;
+
+    }
+    body{
+      background: linear-gradient(0deg, rgba(34,37,195,0.6110819327731092) 6%, rgba(98,93,130,0.2497373949579832) 39%, rgba(34,193,195,1) 97%);
+      font-family: cursive;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      overflow: hidden;
+      
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+
+    }
+
+    p{
+      margin-top: 50px;
+    }
+
+    .image{
+      height: 150px;
+      width: 250px;
+    }
+
+   .btn{
+      height: 4rem;
+      width: 12rem;
+      border: 2px solid #333;
+      border-radius: 50px;
+      box-shadow: 2px 3px 25px #333;
+      
+   }
+   .btn:hover{
+    background-color: #367E18;
+    transform: scale(1);
+    color: #B7C4CF;
+   }
+
+   .turtle{
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+.turtle:hover{
+  font-weight: bold;
+  color: #B7C4CF;
+
+}
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div>
+      <img src="turtle-cartoon-reptile-clip-art-transparent-removebg-preview.png" alt="turtle-image" class="image">
+
+    </div>
+    
+    <div>
+      <h1>Welcome to Turtle Game</h1>
+
+    </div>
+    
+   <div>
+    <button class="btn" type="submit" formtarget="_self">
+      <a class="turtle" href="turtle.html"><b>Play</b></a>
+    </button>
+   </div>
+    
+    
+   <div>
+    <small>
+      <p>Use Page up for Jump and Page Right to move forward and Page Left to move back </p>
+    </small>
+
+   </div>
+    
+
+  </div>
+ 
+
+</body>
+</html>
