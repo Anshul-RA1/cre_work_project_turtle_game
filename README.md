@@ -1,7 +1,7 @@
 # cre_work_project_turtle_game
-This Week was to select the 2 project out of 5 given project from Cre_work. Out Team has decided to build a turtle game.
+This Week was to select the 2 project out of 5 given project from Cre_work. Our Team has decided to build a turtle game which is the first projet of this week.
 The game is quite simple and easy to play. A character has to dodge the enemy for which the character has features like jump, run forward and move back.
-To build this game, A long session by frank from Freecode camp helped us a lot as his tutorials helped a lot to understand about the Canvas , sprite animation, move background in positive and negative direction. Concepts like  drawImage using canvas, Fill rectangle, use circle to detect the collision and provide the necessary co-oridinates to character.
+To build this game, A long session by frank from Freecode camp has helped us a lot, As his tutorials helped a lot to understand about the Canvas , sprite animation, move background in positive and negative direction. Concepts like  drawImage using canvas, Fill rectangle, use circle to detect the collision and provide the necessary co-oridinates to character.
 In this game we build a player called tutrle using sprite sheet and also enemy by using sprite sheet. The background image added in the canvas which is running in loop.
 Details like Score and Game over status has been added as well.
 Still there is a lot of room for improvement which we will keep on adding into this game.
